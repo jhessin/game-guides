@@ -4,17 +4,14 @@
 
 Swiftspike - Attack 48 + 3 = 51
 
-13 Metal Needls
-15 Autumn Leaves
-3 Azure Dragonfly
+13 Metal Needles (have 11)
+15 Autumn Leaves (have 38)
+3 Azure Dragonfly (have 1)
 
 ## Feet
 
-Rusty Anchors - Defense 47 + 5 = 52
+## Totals
 
-2 Metal Needles
-4 Season Apples
-2 Junk Metal
-
-## Helmet
-
+13 Metal Needles 
+- 2 Junk Metal (have 6)(need 26)
+- Bear Cicada (have 1)(need 13)

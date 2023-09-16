@@ -2,7 +2,7 @@
 
 ## Rookie Harbor
 
-All Hail the Ice Cream • Meating Expectations • Training with the Master (Training: VRP • Training: VPI) • Points of Power • Wet Work • New Metal • Bull on Fire • Raising the Steaks • A Switch in Altitude  • Wetter Work (A New Home DLC)
+Meating Expectations • Training with the Master (Training: VRP • Training: VPI) • Points of Power • Wet Work • New Metal • Bull on Fire • Raising the Steaks • A Switch in Altitude  • Wetter Work (A New Home DLC)
 
 ## Autumn's Rise
 
@@ -14,7 +14,7 @@ Chase of the Hologram Frobbit
 
 ## Bergen Trail
 
-You've Got Mail? • Round and Round 2 • The Legendary Bunny • Bergen Trailblazing (Bergen Trail Collect • Bergen Trail Defeat • Bergen Trail Landmarks • Bergen Trail Data Probe)
+The Legendary Bunny • Bergen Trailblazing (Bergen Trail Collect • Bergen Trail Defeat • Bergen Trail Landmarks • Bergen Trail Data Probe)
 
 ## Bergen Village
 
