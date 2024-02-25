@@ -1,0 +1,24 @@
+# fire=4+7+1
+water=2+4+5+2
+# wind=1+5
+earth=2+3+5+7
+amber=5
+moonstone=1
+sunstone=2+2
+talisman=5
+turtleshell=1
+
+coinpouch=1
+rainbowscale=1
+pearl=1
+
+print "fire = ", fire, "\n"
+print "water = ", water, "\n"
+print "wind = ", wind, "\n"
+print "earth = ", earth, "\n"
+print "amber = ", amber, "\n"
+print "moonstone = ", moonstone, "\n"
+print "sunstone = ", sunstone, "\n"
+print "talisman = ", talisman, "\n"
+print "turtleshell = ", turtleshell, "\n"
+
