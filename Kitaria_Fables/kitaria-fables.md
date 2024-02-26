@@ -29,7 +29,7 @@
 	- Miracle Fruit - 3 - DONE - SELL!
 
 	- Moonstone - 5
-	- Obsidian - 100
+	- Obsidian - 50
 	- Pearl - 7
 	- Rainbow Scale - 6
 	- Raw Meat - 15 - DONE - SELL!
@@ -39,7 +39,7 @@
 
 	- Stone - 90
 	- Sunstone - 3 SELL!!!
-	- Turtle Shell - 6
+	- Turtle Shell - 3
 	- Wilted Flowers - 75 
 
 # Spell stuff to save

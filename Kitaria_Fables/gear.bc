@@ -1,0 +1,27 @@
+coinpouch=2+2
+copperingot=20
+goldingot+=3
+hyenatoken=50
+moonstone+=2+2
+obsidian=50
+pearl=3+2
+rainbowscale=3+2
+silveringot=20+10
+snowflake+=50
+sunstone+=2
+turtleshell=3
+
+print "coinpouch = ", coinpouch, "\n"
+print "copperingot = ", copperingot, "\n"
+print "goldingot = ", goldingot, "\n"
+print "hyenatoken = ", hyenatoken, "\n"
+print "moonstone = ", moonstone, "\n"
+print "obsidian = ", obsidian, "\n"
+print "pearl = ", pearl, "\n"
+print "rainbowscale = ", rainbowscale, "\n"
+print "\n"
+print "silveringot = ", silveringot, "\n"
+print "snowflake = ", snowflake, "\n"
+print "sunstone = ", sunstone, "\n"
+print "turtleshell = ", turtleshell, "\n"
+

@@ -1,0 +1,29 @@
+amber=5
+coinpouch=1
+earth=5+7
+fire=7
+moonstone=1
+owned=5+7
+pearl=1
+rainbowscale=1
+sunstone=2+2
+talisman=5
+turtleshell=1
+vs=(fire+water+wind+earth-owned)*10
+water=2+4+2
+wind=5
+
+print "amber = ", amber, "\n"
+print "coinpouch = ", coinpouch, "\n"
+print "earth = ", earth, "\n"
+print "fire = ", fire, "\n"
+print "moonstone = ", moonstone, "\n"
+print "pearl = ", pearl, "\n"
+print "rainbowscale = ", rainbowscale, "\n"
+print "sunstone = ", sunstone, "\n"
+print "talisman = ", talisman, "\n"
+print "turtleshell = ", turtleshell, "\n"
+print "vengeful souls = ", vs
+print "water = ", water, "\n"
+print "wind = ", wind, "\n"
+
