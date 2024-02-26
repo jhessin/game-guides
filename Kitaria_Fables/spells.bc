@@ -1,12 +1,10 @@
 amber=5
-coinpouch=1
 earth=5+7
-fire=7
 moonstone=1
 owned=5+7
 pearl=1
 rainbowscale=1
-sunstone=2+2
+sunstone=2
 talisman=5
 turtleshell=1
 vs=(fire+water+wind+earth-owned)*10
