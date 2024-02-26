@@ -13,16 +13,16 @@
 	- Amber - 26 
 	- Blue Mucus - 20
 	- Clay - 50
-	- Coal - 100 
+	- Coal - 70 
 	- Coin Pouch - 5
 	- Copper Ingot - 80
 	- Cotton Flower - 15
 	- Fang - 45
 
-	- Gold Ingot - 46
+	- Gold Ingot - 36
 	- Hard Shells - 30 - DONE - SELL!
 	- Huge Leaf - 50 - DONE - SELL!
-	- Hyena Token - 60
+	- Hyena Token - 60 - DONE - SELL!
 	- Insect Wing - 60 - DONE - SELL!
 	- Ironstone - 375
 	- Log - 160
@@ -32,7 +32,7 @@
 	- Obsidian - 100
 	- Pearl - 7
 	- Rainbow Scale - 6
-	- Raw Meat - 15
+	- Raw Meat - 15 - DONE - SELL!
 	- Sap - 55 - DONE - SELL!
 	- Silver Ingot - 85
 	- Snowflake - 90
@@ -40,8 +40,23 @@
 	- Stone - 90
 	- Sunstone - 3 SELL!!!
 	- Turtle Shell - 6
-	- Vengeful Soul - 590
 	- Wilted Flowers - 75 
+
+# Spell stuff to save
+
+	- Amber - 5 
+	- Coin Pouch - 1
+	- Earth Sphere - 12
+	- Fire Sphere - 7
+	- Moonstone - 1
+	- Pearl - 1
+	- Rainbow Scale - 1
+	- Sunstone - 4
+
+	- Turtle Shell - 1
+	- Vengeful Soul - 200
+	- Water Sphere - 13
+	- Wind Sphere - 5
 
 # Farmed Stuff to Save
 
