@@ -1,10 +1,7 @@
 amber=5
-moonstone=1
 pearl=1
 rainbowscale=1
 sunstone=2
-talisman=5
-turtleshell=1
 
 wind=5
 water=2
@@ -13,17 +10,17 @@ owned=8
 vs=(fire+water+wind+earth-owned)*10
 
 print "amber = ", amber, "\n"
-print "coinpouch = ", coinpouch, "\n"
-print "moonstone = ", moonstone, "\n"
+# print "coinpouch = ", coinpouch, "\n"
+# print "moonstone = ", moonstone, "\n"
 print "pearl = ", pearl, "\n"
 print "rainbowscale = ", rainbowscale, "\n"
 print "sunstone = ", sunstone, "\n"
-print "talisman = ", talisman, "\n"
-print "turtleshell = ", turtleshell, "\n"
+# print "talisman = ", talisman, "\n"
+# print "turtleshell = ", turtleshell, "\n"
 print "\n"
 print "vengeful souls = ", vs, "\n"
 print "earth = ", earth, "\n"
-print "fire = ", fire, "\n"
+# print "fire = ", fire, "\n"
 print "water = ", water, "\n"
 print "wind = ", wind, "\n"
 
