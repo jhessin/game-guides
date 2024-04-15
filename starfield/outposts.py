@@ -1,87 +1,112 @@
-## EXTRACTORS ##
+from typing import DefaultDict
 
-# Extractor - Uranium
-iron = 5
-tungsten = 2
-aluminum = 4
+class Outpost:
+    r = DefaultDict(int)
 
-# Extractor - Water Vapor
-benzene = 3
-membrane = 4
-aluminum += 5
+    def display(self):
+        for key in sorted(self.r.keys()):
+            print(f"{key}: {self.r[key]}")
 
-# Extractor - Aluminum
-iron += 5
-tungsten += 2
-aluminum += 4
+# EXTRACTORS
+
+    # Extractor - Uranium
+    def add_extractor_uranium(self):
+        self.r['iron'] += 5
+        self.r['tungsten'] += 2
+        self.r['aluminum'] += 4
+
+    # Extractor - Water Vapor
+    def add_extractor_water_vapor(self):
+        self.r['benzene'] += 3
+        self.r['membrane'] += 4
+        self.r['aluminum'] += 5
+
+    # Extractor - Aluminum
+    def add_extractor_aluminum(self):
+        self.r['iron'] += 5
+        self.r['tungsten'] += 2
+        self.r['aluminum'] += 4
 
 ## POWER ##
 
-# Wind Turbine
-nickel = 3
-cobalt = 2
-aluminum += 5
+    # Wind Turbine
+    def add_power_wind(self):
+        self.r['nickel'] += 3
+        self.r['cobalt'] += 2
+        self.r['aluminum'] += 5
 
-# Solar Array
-copper = 3
-beryllium = 2
-aluminum += 4
+    # Solar Array
+    def add_power_solar(self):
+        self.r['copper'] += 3
+        self.r['beryllium'] += 2
+        self.r['aluminum'] += 4
+
+    def add_power_generator(self):
+        self.r['austenitic_manifold'] += 1
+        self.r['tau_grade_rheostat'] += 1
+        self.r['isocentered_magnet'] += 1
+        self.r['tungsten'] += 4
 
 ## STORAGE & TRANSFER ##
 
-# Transfer Container
-lubricant = 4
-iron += 8
-tungsten += 5
+    # Transfer Container
+    def add_transfer_container(self):
+        self.r['lubricant'] += 4
+        self.r['iron'] += 8
+        self.r['tungsten'] += 5
 
-# Storage Container - Solid
-adaptive_frame = 3
-iron += 6
-aluminum += 5
+    # Storage Container - Solid
+    def add_storage_solid(self):
+        self.r['adaptive_frame'] += 3
+        self.r['iron'] += 6
+        self.r['aluminum'] += 5
 
-# Storage - Liquid
-adaptive_frame += 3
-nickel += 5
-aluminum += 6
+    # Storage - Liquid
+    def add_storage_liquid(self):
+        self.r['adaptive_frame'] += 3
+        self.r['nickel'] += 5
+        self.r['aluminum'] += 6
 
-# Storage - Gas
-adaptive_frame += 3
-copper += 6
-tungsten += 5
+    # Storage - Gas
+    def add_storage_gas(self):
+        self.r['adaptive_frame'] += 3
+        self.r['copper'] += 6
+        self.r['tungsten'] += 5
 
 ## Misc - Utility ##
 
-# Scan Booster
-copper +=3
-beryllium += 2
-aluminum += 4
+    # Scan Booster
+    def add_scan_booster(self):
+        self.r['copper'] +=3
+        self.r['beryllium'] += 2
+        self.r['aluminum'] += 4
 
-# Cargo Link
-zero_wire = 2
-iron += 20
-beryllium += 2
-aluminum += 12
+    # Cargo Link
+    def add_cargo_link(self):
+        self.r['zero_wire'] += 2
+        self.r['iron'] += 20
+        self.r['beryllium'] += 2
+        self.r['aluminum'] += 12
 
-# Crew Staiton
-nickel += 3
-iron += 2
-aluminum += 5
+    # Crew Staiton
+    def add_crew_station(self):
+        self.r['nickel'] += 3
+        self.r['iron'] += 2
+        self.r['aluminum'] += 5
 
-# Landing Pand and Shipbuilder
-adaptive_frame += 18
-zero_wire += 2
-iron += 30
-beryllium += 2
+    # Landing Pand and Shipbuilder
+    def add_landing_pad(self, with_builder = True):
+        if with_builder:
+            self.r['adaptive_frame'] += 18
+            self.r['zero_wire'] += 2
+            self.r['iron'] += 30
+            self.r['beryllium'] += 2
 
-print("adaptive_frame: ", adaptive_frame)
-print("aluminum: ", aluminum)
-print("benzene: ", benzene)
-print("beryllium: ", beryllium)
-print("cobalt: ", cobalt)
-print("copper: ", copper)
-print("iron: ", iron)
-print("lubricant: ", lubricant)
-print("membrane: ", membrane)
-print("nickel: ", nickel)
-print("tungsten: ", tungsten)
-print("zero_wire: ", zero_wire)
+outpost = Outpost()
+outpost.add_extractor_aluminum()
+outpost.add_power_solar()
+outpost.add_power_solar()
+outpost.add_power_solar()
+outpost.add_power_solar()
+outpost.add_storage_solid()
+outpost.display()
