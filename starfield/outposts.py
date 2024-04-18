@@ -1,12 +1,6 @@
-from typing import DefaultDict
+from resource_manager import ResourceManager
 
-class Outpost:
-    r = DefaultDict(int)
-
-    def display(self):
-        for key in sorted(self.r.keys()):
-            print(f"{key}: {self.r[key]}")
-
+class Outpost(ResourceManager):
 # EXTRACTORS
 
     # Extractor - Uranium
@@ -102,11 +96,12 @@ class Outpost:
             self.r['iron'] += 30
             self.r['beryllium'] += 2
 
-outpost = Outpost()
-outpost.add_extractor_aluminum()
-outpost.add_power_solar()
-outpost.add_power_solar()
-outpost.add_power_solar()
-outpost.add_power_solar()
-outpost.add_storage_solid()
-outpost.display()
+if __name__ == "__main__":
+    outpost = Outpost()
+    outpost.add_extractor_aluminum()
+    outpost.add_power_solar()
+    outpost.add_power_solar()
+    outpost.add_power_solar()
+    outpost.add_power_solar()
+    outpost.add_storage_solid()
+    outpost.display()

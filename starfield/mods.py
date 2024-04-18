@@ -1,12 +1,6 @@
-from typing import DefaultDict
+from resource_manager import ResourceManager
 
-class Mods:
-    r = DefaultDict(int)
-
-    def display(self):
-        for key in sorted(self.r.keys()):
-            print(f"{key}: {self.r[key]}")
-
+class Mods(ResourceManager):
 # Weapon Mods
 
 ## Barrels
@@ -164,5 +158,6 @@ class Mods:
         self.r['lubricant'] += 3
         self.r['ytterbium'] += 2
 
-mods = Mods()
-mods.display()
+if __name__ == "__main__":
+    mods = Mods()
+    mods.display()
