@@ -19,17 +19,29 @@ research.receiver_mod_1()
 # (outpost + research + mods).display()
 
 # Already added to research
+research.r['isotopic_coolant'] -= 4
 research.r['titanium'] -= 15
-research.r['lubricant'] -= 3
+research.r['lubricant'] -= 7
+
+# Checklist - Give it all to Vasco
+research.r['beryllium'] -= 1
+research.r['cobalt'] -= 2
+research.r['copper'] -= 1
+research.r['europium'] -= 8
+research.r['ionic_liquids'] -= 3
+research.r['lithium'] -= 0
+research.r['lubricant'] -= 0
+research.r['microsecond_regulator'] -= 1
+research.r['nickel'] -= 2
+research.r['tau_grade_rheostat'] -= 1
+research.r['tetrafluorides'] -= 3
+research.r['titanium'] -= 0
+research.r['ytterbium'] -= 0
+
 
 # Breakdown manufactured goods
 
 # Tier 1
-# microsecond_regulator
-# = 4 europium
-# + 2 lithium
-# + 1 supercooled_magnet
-# + 1 tau_grade_rheostat
 
 for x in range(research.r['microsecond_regulator']):
     research.r['europium'] += 4
@@ -39,18 +51,12 @@ for x in range(research.r['microsecond_regulator']):
     research.r['microsecond_regulator'] -= 1
 
 # Tier 2
-# supercooled_magnet
-    # = 1 isocentered_magnet
-    # + 1 isotopic_coolant
 
 for x in range(research.r['supercooled_magnet']):
     research.r['isocentered_magnet'] += 1
     research.r['isotopic_coolant'] += 1
     research.r['supercooled_magnet'] -= 1
 
-# tau_grade_rheostat
-    # = 1 beryllium
-    # = 1 copper
 
 for x in range(research.r['tau_grade_rheostat']):
     research.r['beryllium'] += 1
@@ -60,18 +66,10 @@ for x in range(research.r['tau_grade_rheostat']):
 
 # Tier 3
 
-# isocentered_magnet
-    # = 1 cobalt
-    # + 1 nickel
-
 for x in range(research.r['isocentered_magnet']):
     research.r['cobalt'] += 1
     research.r['nickel'] += 1
     research.r['isocentered_magnet'] -= 1
-
-# isotopic_coolant
-    # = 1 ionic_liquids
-    # + 1 tetrafluorides
 
 for x in range(research.r['isotopic_coolant']):
     research.r['ionic_liquids'] += 1
