@@ -78,3 +78,9 @@ for x in range(research.r['isotopic_coolant']):
 
 research.clean()
 research.display()
+
+print()
+print('Target Systems:')
+print('System: Hyla')
+print('Moon: Hyla VII-A')
+print('Resources: Lithium & Titanium')
