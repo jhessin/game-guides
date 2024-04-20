@@ -1,114 +1,61 @@
-from mods import Mods
-from outposts import Outpost
-from researches import Researches
+from resource_manager import ResourceManager
 
-research = Researches()
-outpost = Outpost()
-mods = Mods()
-# outpost.add_extractor_aluminum()
-# outpost.add_power_solar()
-# outpost.add_extractor_aluminum()
-# outpost.add_power_solar()
-# outpost.add_extractor_aluminum()
-# outpost.add_power_solar()
-# outpost.add_extractor_aluminum()
-# outpost.add_power_solar()
-# outpost.add_storage_solid()
-research.receiver_mod_1()
-# mods.add_semi_automatic()
-# (outpost + research + mods).display()
+rm = ResourceManager()
+
+# Weapon Workbench
+rm.r['adhesive'] += 3
+rm.r['iron'] += 4
+rm.r['sealant'] += 3
+rm.r['nickel'] += 2
 
 # Already added to research
-research.r['isotopic_coolant'] -= 4
-research.r['titanium'] -= 15
-research.r['lubricant'] -= 7
+# rm.r['isotopic_coolant'] -= 4
 
 # Checklist - Give it all to Vasco
-research.r['beryllium'] -= 1
-research.r['cobalt'] -= 2
-research.r['copper'] -= 1
-research.r['europium'] -= 8
-research.r['ionic_liquids'] -= 3
-research.r['lithium'] -= 0
-research.r['lubricant'] -= 0
-research.r['microsecond_regulator'] -= 1
-research.r['nickel'] -= 2
-research.r['tau_grade_rheostat'] -= 1
-research.r['tetrafluorides'] -= 3
-research.r['titanium'] -= 0
-research.r['ytterbium'] -= 0
-
+rm.r['adhesive'] -= 0
+rm.r['iron'] -= 4
+rm.r['nickel'] -= 2
+rm.r['sealant'] -= 3
 
 # Breakdown manufactured goods
 
 # Tier 1
 
-for x in range(research.r['microsecond_regulator']):
-    research.r['europium'] += 4
-    research.r['lithium'] += 2
-    research.r['supercooled_magnet'] += 1
-    research.r['tau_grade_rheostat'] += 1
-    research.r['microsecond_regulator'] -= 1
+# for x in range(research.r['microsecond_regulator']):
+#     research.r['europium'] += 4
+#     research.r['lithium'] += 2
+#     research.r['supercooled_magnet'] += 1
+#     research.r['tau_grade_rheostat'] += 1
+#     research.r['microsecond_regulator'] -= 1
 
 # Tier 2
 
-for x in range(research.r['supercooled_magnet']):
-    research.r['isocentered_magnet'] += 1
-    research.r['isotopic_coolant'] += 1
-    research.r['supercooled_magnet'] -= 1
-
-
-for x in range(research.r['tau_grade_rheostat']):
-    research.r['beryllium'] += 1
-    research.r['copper'] += 1
-    research.r['tau_grade_rheostat'] -= 1
+# for x in range(research.r['supercooled_magnet']):
+#     research.r['isocentered_magnet'] += 1
+#     research.r['isotopic_coolant'] += 1
+#     research.r['supercooled_magnet'] -= 1
+#
+#
+# for x in range(research.r['tau_grade_rheostat']):
+#     research.r['beryllium'] += 1
+#     research.r['copper'] += 1
+#     research.r['tau_grade_rheostat'] -= 1
 
 
 # Tier 3
 
-for x in range(research.r['isocentered_magnet']):
-    research.r['cobalt'] += 1
-    research.r['nickel'] += 1
-    research.r['isocentered_magnet'] -= 1
+# for x in range(research.r['isocentered_magnet']):
+#     research.r['cobalt'] += 1
+#     research.r['nickel'] += 1
+#     research.r['isocentered_magnet'] -= 1
+#
+# for x in range(research.r['isotopic_coolant']):
+#     research.r['ionic_liquids'] += 1
+#     research.r['tetrafluorides'] += 1
+#     research.r['isotopic_coolant'] -= 1
 
-for x in range(research.r['isotopic_coolant']):
-    research.r['ionic_liquids'] += 1
-    research.r['tetrafluorides'] += 1
-    research.r['isotopic_coolant'] -= 1
-
-research.clean()
-research.display()
+rm.clean()
+rm.display()
 
 print()
-print('Target Systems:')
-print()
-print('==================')
-print('System: Altair')
-print('Level: 15')
-print('==================')
-print('Moon: Altair IV-B')
-print('Resources: lithium')
-print()
-print('==================')
-print('System: Muphrid')
-print('Level: 15')
-print('==================')
-print('Planet: Muphrid IV')
-print('Resources: lubricant')
-print()
-print('==================')
-print('System: Bradbury')
-print('Level: 20')
-print('==================')
-print('Planet: Bradbury III')
-print('Resources: titanium')
-print('Planet: Bradbury I')
-print('Resources: ytterbium')
-print()
-print('==================')
-print('System: Hyla')
-print('Level: 70')
-print('==================')
-print('Moon: Hyla VII-A')
-print('Resources: lithium & titanium')
 

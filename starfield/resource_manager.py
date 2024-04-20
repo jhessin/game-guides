@@ -12,7 +12,7 @@ class ResourceManager:
     def clean(self):
         to_delete = []
         for key in self.r.keys():
-            if self.r[key] == 0:
+            if self.r[key] <= 0:
                 to_delete.append(key)
         for key in to_delete:
             self.r.pop(key)
