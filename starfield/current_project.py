@@ -8,6 +8,18 @@ rm = ResourceManager()
 # rm.r['nickel'] += 3
 # rm.r['sealant'] += 2
 
+# Optic and Laser Mods 3 - DONE
+
+# Greenhouse
+rm.r['sealant'] += 3
+rm.r['reactive_gauge'] += 3
+rm.r['adaptive_frame'] += 3
+rm.r['fluorine'] += 4
+
+rm.r['aluminum'] += 5
+rm.r['nickel'] += 3
+rm.r['cobalt'] += 2
+
 # Recon Laser Sight
 rm.r['adhesive'] += 3
 rm.r['paladium'] += 2
@@ -15,16 +27,21 @@ rm.r['vanadium'] += 3
 rm.r['zero_wire'] += 4
 
 
-# Already added to research
+# Already added to resear333ch
 # rm.r['isotopic_coolant'] -= 4
 
 # Checklist - Give it all to Vasco
-rm.r['adhesive'] -= 0
-# rm.r['copper'] -= 4
-# rm.r['paladium'] -= 2
-rm.r['silver'] -= 0
-# rm.r['vanadium'] -= 3
-rm.r['zero_wire'] -= 0
+# rm.r['adaptive_frame'] -= 16
+# rm.r['adhesive'] -= 0
+# rm.r['copper'] -= 16
+# rm.r['fluorine'] -= 0
+# rm.r['paladium'] -= 13
+# rm.r['reactive_gauge'] -= 12
+# rm.r['sealant'] -= 99
+# rm.r['silver'] -= 0
+# rm.r['vanadium'] -= 6
+# rm.r['zero_wire'] -= 0
+
 
 # Breakdown manufactured goods
 
@@ -72,4 +89,5 @@ rm.clean()
 rm.display()
 
 print()
+print('Arcturus II has a TON of organic resources!')
 
