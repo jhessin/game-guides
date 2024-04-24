@@ -1,6 +1,14 @@
 from resource_manager import ResourceManager
 
 rm = ResourceManager()
+# Burst Fire Receiver
+rm.r['titanium'] += 4
+rm.r['lubricant'] += 3
+rm.r['ytterbium'] += 2
+
+rm.r['titanium'] -= 14
+rm.r['lubricant'] -= 2
+rm.r['ytterbium'] -= 0
 
 # Semi-automatic receiver
 # rm.r['copper'] += 3
@@ -8,23 +16,24 @@ rm = ResourceManager()
 # rm.r['nickel'] += 3
 # rm.r['sealant'] += 2
 
+
 # Optic and Laser Mods 3 - DONE
 
 # Greenhouse
-rm.r['sealant'] += 3
-rm.r['reactive_gauge'] += 3
-rm.r['adaptive_frame'] += 3
-rm.r['fluorine'] += 4
+# rm.r['sealant'] += 3
+# rm.r['reactive_gauge'] += 3
+# rm.r['adaptive_frame'] += 3
+# rm.r['fluorine'] += 4
 
-rm.r['aluminum'] += 5
-rm.r['nickel'] += 3
-rm.r['cobalt'] += 2
+# rm.r['aluminum'] += 5
+# rm.r['nickel'] += 3
+# rm.r['cobalt'] += 2
 
 # Recon Laser Sight
-rm.r['adhesive'] += 3
-rm.r['paladium'] += 2
-rm.r['vanadium'] += 3
-rm.r['zero_wire'] += 4
+# rm.r['adhesive'] += 3
+# rm.r['paladium'] += 2
+# rm.r['vanadium'] += 3
+# rm.r['zero_wire'] += 4
 
 
 # Already added to resear333ch
