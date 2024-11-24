@@ -1,0 +1,110 @@
+[
+  {
+    "Name": "Highland Smock",
+    "Id": 6979,
+    "StackSize": 1,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "Replica Sky Pirate's Coat of Casting",
+    "Id": 28839,
+    "StackSize": 1,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "Expeditioner's Pantalettes",
+    "Id": 14835,
+    "StackSize": 1,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "Moonfire Sandals",
+    "Id": 15927,
+    "StackSize": 1,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "Diaspore Bracelet of Casting",
+    "Id": 25862,
+    "StackSize": 1,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": true
+  },
+  {
+    "Name": "Paella",
+    "Id": 27877,
+    "StackSize": 1,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "Wolf Fang",
+    "Id": 5444,
+    "StackSize": 8,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "Trillium Bulb",
+    "Id": 5546,
+    "StackSize": 1,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "Blue Landtrap Leaf",
+    "Id": 5549,
+    "StackSize": 7,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "Grade 1 Intelligence Dissolvent",
+    "Id": 12615,
+    "StackSize": 1,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "General-purpose Pastel Green Dye",
+    "Id": 13711,
+    "StackSize": 2,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  },
+  {
+    "Name": "Savage Aim Materia VII",
+    "Id": 25188,
+    "StackSize": 1,
+    "NumberOfListings": 0,
+    "MinPrice": 0,
+    "MaxPrice": 999999999,
+    "Hq": false
+  }
+]
