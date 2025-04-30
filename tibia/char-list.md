@@ -4,10 +4,11 @@ Grillbrick Taylor
 
 # Ulera
 
-Grillbrick Monk
+Grillbrick Monk (Deleted)
 
 # Esmera
 
+Grillmonk Taylor
 Grillbrick Druid
 Grillbrick Knight
 Grillbrick Paladin
