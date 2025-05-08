@@ -79,8 +79,8 @@ Mana = 200
 Sta = 200
 Str = 271
 Dex = 130
-Pow = 10
-Kno = 10
+Pow = -
+Kno = -
 
 ## Druid - Grillbrick
 
@@ -89,9 +89,9 @@ Knowledge and Power are the most important stats.
 
 Life = 800
 Mana = 500
-Sta = 200
-Str = 10
-Dex = 10
+Sta = -
+Str = -
+Dex = -
 Pow = 85
 Kno = 206
 
