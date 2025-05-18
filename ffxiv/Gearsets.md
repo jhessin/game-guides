@@ -1,6 +1,7 @@
 # Gearset List
 
 1. Sage (or primary combat class)
+
 2. Carpenter
 3. Blacksmith
 4. Armorer

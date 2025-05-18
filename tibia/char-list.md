@@ -2,10 +2,6 @@
 
 Grillbrick Taylor
 
-# Ulera
-
-Grillbrick Monk (Deleted)
-
 # Esmera
 
 Grillmonk Taylor
