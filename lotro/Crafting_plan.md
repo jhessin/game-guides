@@ -23,12 +23,14 @@ Cook
 ### Temporio
 
 Scholar
+Cook
+Forester
 
 ## Professions
 
 ### Wood and leather
 
-Forester - Grillbrick
+Forester - Grillbrick - Temporio
 Tailor - Grillbrick
 Woodworker - Bankori
 
@@ -43,4 +45,4 @@ Weaponsmith - Bankori
 
 Scholar - Temporio
 Farmer - Prospectorio
-Cook - Prospectorio
+Cook - Prospectorio - Temporio
